@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaPattern.OrderService", "SagaPattern.OrderService\SagaPattern.OrderService.csproj", "{24F40531-14AA-41DA-81B6-DDC85B0E99D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattern.AppHost", "SagaPattern.AppHost\SagaPattern.AppHost.csproj", "{D98D0DF3-D627-4CF2-836A-4C45A273272A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaPattern.ServiceDefaults", "SagaPattern.ServiceDefaults\SagaPattern.ServiceDefaults.csproj", "{74DA59DC-3660-4A54-B8E2-206886A84F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaPattenr.Shared", "SagaPattenr.Shared\SagaPattenr.Shared.csproj", "{8CF412A6-98BD-4D70-ACC8-93D704A5BCCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaPattern.PaymentService", "SagaPattern.PaymentService\SagaPattern.PaymentService.csproj", "{B5FB0FC4-8FA3-439C-B0D2-A698278C0434}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaPattern.InventoryService", "SagaPattern.InventoryService\SagaPattern.InventoryService.csproj", "{5185426F-1F14-4C5E-83A1-679CEC6A4E30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F40531-14AA-41DA-81B6-DDC85B0E99D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F40531-14AA-41DA-81B6-DDC85B0E99D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F40531-14AA-41DA-81B6-DDC85B0E99D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F40531-14AA-41DA-81B6-DDC85B0E99D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98D0DF3-D627-4CF2-836A-4C45A273272A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98D0DF3-D627-4CF2-836A-4C45A273272A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98D0DF3-D627-4CF2-836A-4C45A273272A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98D0DF3-D627-4CF2-836A-4C45A273272A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DA59DC-3660-4A54-B8E2-206886A84F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DA59DC-3660-4A54-B8E2-206886A84F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DA59DC-3660-4A54-B8E2-206886A84F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DA59DC-3660-4A54-B8E2-206886A84F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF412A6-98BD-4D70-ACC8-93D704A5BCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF412A6-98BD-4D70-ACC8-93D704A5BCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF412A6-98BD-4D70-ACC8-93D704A5BCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF412A6-98BD-4D70-ACC8-93D704A5BCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FB0FC4-8FA3-439C-B0D2-A698278C0434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FB0FC4-8FA3-439C-B0D2-A698278C0434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FB0FC4-8FA3-439C-B0D2-A698278C0434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FB0FC4-8FA3-439C-B0D2-A698278C0434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5185426F-1F14-4C5E-83A1-679CEC6A4E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5185426F-1F14-4C5E-83A1-679CEC6A4E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5185426F-1F14-4C5E-83A1-679CEC6A4E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5185426F-1F14-4C5E-83A1-679CEC6A4E30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2433E1E-BD73-44CF-AB7E-5366172E84D2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>b4545528-d089-4235-999c-26fba185709a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SagaPattern.InventoryService\SagaPattern.InventoryService.csproj" />
+    <ProjectReference Include="..\SagaPattern.OrderService\SagaPattern.OrderService.csproj" />
+    <ProjectReference Include="..\SagaPattern.PaymentService\SagaPattern.PaymentService.csproj" />
+  </ItemGroup>
+
+</Project>
